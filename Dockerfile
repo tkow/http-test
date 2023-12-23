@@ -4,4 +4,6 @@ WORKDIR /work
 
 COPY ./ /work/
 
+EXPOSE 8080
+
 ENTRYPOINT [ "node", "index.js" ]
